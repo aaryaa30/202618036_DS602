@@ -1,7 +1,7 @@
-Medical Insurance Statistical Analysis
+# Medical Insurance Statistical Analysis
  This application analyzes the Medical Insurance Costs dataset and demonstrates descriptive statistics, hypothesis testing, multiple linear regression, and residual diagnostics.
 
-The applicaiton dashboard contains 3 interactive sections:
+## The applicaiton dashboard contains 3 interactive sections:
     1. Data Exploration
     2. Hypothesis Testing Lab
     3. Prediction & Diagnostics
@@ -9,29 +9,29 @@ The applicaiton dashboard contains 3 interactive sections:
 The dataset used for this application is Medical Insurance Costs.
     The dataset contains both numerical and categorical variables. The main target variable used for regression and prediction is charges.
 
-Features:
-Feature	   Description
-age	       Age of the individual
-sex	       Gender of the individual
-bmi	       Body Mass Index
-children   Number of children/dependents
-smoker	   Whether the individual is a smoker
-region	   Residential region
-charges	   Medical insurance cost
+### Features
 
-Technologies Used
-Python
-Pandas
-NumPy
-SciPy
-Scikit-learn
-Statsmodels
-Plotly
-Streamlit
-Matplotlib
-Seaborn
+| Feature | Description |
+|---|---|
+| `age` | Age of the individual |
+| `sex` | Gender of the individual |
+| `bmi` | Body Mass Index |
+| `children` | Number of children/dependents |
+| `smoker` | Whether the individual is a smoker |
+| `region` | Residential region |
+| `charges` | Medical insurance cost |
 
-Statistical Analysis Performed
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- SciPy
+- Statsmodels
+- Plotly
+- Streamlit
+
+## Statistical Analysis Performed
 1. Descriptive Analysis
 2. Hypothesis Testing
     Two statistical hypothesis tests are included.
@@ -48,8 +48,9 @@ At a significance level of α = 0.05, the application reports whether the null h
 3.Multiple Linear Regression
 4. Model Diagnostics
 
-Instructions to run the application:
-Install Required Packages:
+## Instructions to run the application:
+- Install Required Packages:
     pip install -r requirements.txt
-Run the Streamlit Application:
+- Run the Streamlit Application:
     streamlit run app.py
+#### A pdf attached including the description of all the terms used for the application.
