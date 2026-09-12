@@ -1,10 +1,10 @@
-Medical Insurance Statistical Analysis
+#Medical Insurance Statistical Analysis
  This application analyzes the Medical Insurance Costs dataset and demonstrates descriptive statistics, hypothesis testing, multiple linear regression, and residual diagnostics.
 
-The applicaiton dashboard contains 3 interactive sections:
-    1. Data Exploration
-    2. Hypothesis Testing Lab
-    3. Prediction & Diagnostics
+##The applicaiton dashboard contains 3 interactive sections:
+    -1. Data Exploration
+    -2. Hypothesis Testing Lab
+    -3. Prediction & Diagnostics
 
 The dataset used for this application is Medical Insurance Costs.
     The dataset contains both numerical and categorical variables. The main target variable used for regression and prediction is charges.
